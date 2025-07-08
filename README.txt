@@ -21,6 +21,8 @@
 
 * Geliştirici : Eren Söğütlü
 
+LİNK : https://erensogutlu-sumup.netlify.app/
+
 ------------------------------------------------------------------------------------------------------------------
 
 /* sum-up | Text Analysis and Summarization Tool */
@@ -45,3 +47,5 @@
    + JavaScript
 
 * Developer : Eren Söğütlü
+
+LINK : https://erensogutlu-sumup.netlify.app/
