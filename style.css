@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background: #f3f3f3;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.kapsayici {
+    background: #ffffff;
+    width: 100%;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #222;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 180px;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    resize: vertical;
+}
+
+.btn-grup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+button {
+    background-color: #4f46e5;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3730a3;
+}
+
+.sonuclar, .ozet-alani {
+    background-color: #f9fafb;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 16px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.sonuclar p, .ozet-alani p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.ozet-alani h3 {
+    margin-bottom: 12px;
+    color: #111827;
+}
+
+@media (max-width: 600px) {
+    .kapsayici {
+      padding: 20px;
+    }
+    h1 {
+      font-size: 22px;
+    }
+    button {
+      width: 100%;
+      padding: 12px 0;
+    }
+}

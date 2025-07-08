@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>sum-up</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+ <link rel="icon" href="icon.svg">
+</head>
+<body>
+ <div class="kapsayici">
+  <h1>Metin Analiz ve Özetleme Aracı</h1>
+  <textarea id="girdiMetni" placeholder="Metninizi buraya yazınız..."></textarea>
+  <div class="btn-grup">
+    <button onclick="analizYap()">Analiz Et</button>
+    <button onclick="ozetCikar()">Otomatik Özet</button>
+    <button onclick="temizle()">Temizle</button>
+ </div>
+  <div class="sonuclar" id="sonuclar"></div>
+  <div class="ozet-alani" id="ozetAlani"></div>
+ </div>
+ <script src="main.js"></script>
+</body>
+</html>
